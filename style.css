@@ -1,0 +1,363 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.front-page-home{
+    height: 710px !important;
+}
+
+.front-page-left{
+    padding: 70px 70px;
+}
+.front-page-right{
+    background-color: #65509C;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;  
+    text-align:right;
+    padding: 250px 100px !important;
+    height: 710px !important;
+    
+}
+.front-page-right a{
+    color: #fff;
+    Text-decoration: none;
+    font-size: 11px;
+    font-weight:100 !important;
+} 
+.front-page-right a:hover{
+    color: red;
+    text-decoration: none;
+} 
+.front-page-text{
+    font-family: 'Noto Sans', sans-serif;
+    color: #65509C;
+    font-size:36px;
+    padding: 200px 50px 20px 50px;
+}
+.toggle-text{
+    color: #ED6949;   
+    font-size: 44px;
+    
+}
+.learn-more-front{
+    font-size: 16px;
+    padding-left: 50px;
+    color: #65509C;
+}
+.current-nav{
+    font-size: 20px !important;
+}
+
+.lower-front-icon{
+    height: 100px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.progress{
+    width: 50%;
+    display: block;
+    position: absolute;
+    text-align:center;
+}
+
+.front-page-what-we-do{
+  background: url(./picture/what-we-do-bg.png); 
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 730px !important;
+}
+.card-deck{
+    padding-top:30px;
+}
+
+.no-bg{
+    background-color: none !important;
+}
+
+.checkout{
+    background-color:#ED6949;
+    border-radius: 10px;
+    padding: 5px;
+    margin:30px 20px;
+    color:#fff;
+    width: 200px; 
+}
+
+.front-page-right{
+    height:730px !important;
+}
+
+input{
+    border-radius:20px;
+    padding:10px;
+    margin:10px !important;
+    width:300px;
+    border:0px;
+    box-shadow:10px 10px 10px lightgrey;
+    color: #65509C;
+}
+
+textarea{
+    border-radius:20px;
+    padding:10px;
+    margin:10px !important;
+    width:300px;
+    border:0px;
+    box-shadow:10px 10px 10px lightgrey;
+    height:150px;
+    color: #65509C;
+}
+
+#submit{
+    border-radius:20px;
+    background-color:#ED6949;
+    color: #fff;
+    border: 0px;
+    height:40px;
+    width:90px;
+    box-shadow:10px 10px 10px lightgrey;
+}
+
+.mk-email{
+    color:#65509C;
+    padding: 20px;
+}
+
+.click-text{
+    color:#ED6949;
+    padding: 0px 20px;
+}
+
+nav{
+    background-color:#fff;
+    box-shadow: 10px 10px 10px lightgrey;
+    text-align: right;
+
+}
+
+.about-us-top{
+    background: url(./picture/about-us-bg.png); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 730px !important;
+}
+
+.white-text{
+    color:#fff;
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 200px 50px;
+}
+
+
+.affiliate-text{
+    background-color: #9149CD;
+    height: 700px;
+}
+
+.affiliate-text h1{
+    color: #fff;
+    padding:50px;
+    text-align: center;
+}
+
+.text-quatation{
+    background: url(./picture/quet-box.svg); 
+    height:350px;
+    background-repeat: no-repeat;
+    padding:90px 50px;
+
+}
+
+.img-affiliate-text{
+    height:350px;
+    width:500px;
+    padding-left: 20px;
+}
+
+.text-quatation h4{
+    font-size:22px;
+    color: #fff;
+
+}
+
+.business-management{
+    background: url(./picture/women-talking.jpg);
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: 580px 1100px;
+
+}
+
+.digital-marketing{
+    background: url(./picture/digital-marketing.jpg);
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: 580px 1100px;
+    
+}
+.e-com-solution{
+    background: url(./picture/e-com.jpg);
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: 580px 1100px;
+    
+}
+.affiliate-management{
+    background: url(./picture/affiliate.jpg);
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: 580px 1100px;
+}
+
+.web-app-solution{
+    background: url(./picture/mobile-app.jpg);
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: 480px 1100px;
+}
+.balk-sms-solution{
+    background: url(./picture/balk-sms.jpg);
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: 1600px 600px;
+}
+.ads-top{
+    background: url(./picture/adds-network.jpg);
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: 400px 1100px;
+}
+
+.bms-left-text{
+    color: #fff;
+}
+
+.bms-card{
+    margin: 10px;
+    border-radius: 20px !important;
+    box-shadow:0px 0px 7px rgb(70, 70, 70);
+}
+
+.card-shadow{
+    box-shadow:0px 0px 7px rgb(70, 70, 70);
+}
+
+.bms-card-2{
+    width:100%
+}
+.bms-card-1{
+    height:70%;
+}
+
+.bms-card-1 img{
+    padding-left:10px;
+}
+.color1{
+    color:#65509C;
+}
+
+.color2{
+    color:#ED6949;
+}
+
+
+
+.ads-left{
+    background: url(./picture/mk-ads.svg);
+    background-repeat: no-repeat;
+    align-items:left;
+    BACKGROUND-COLOR:black;
+    
+}
+
+.ads-text-right{
+    padding: 250px 40px 10px 70px;
+}
+
+.ads-card{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.ads-card-2{
+    text-align:left;
+}
+
+.visit a h4{
+    background-color:#ED6949;
+    color:#fff;
+    border-radius: 20px;
+    text-align: center;
+    width: 800px;
+    padding: 20px;
+}
+
+.visit{
+    margin: 20px;
+    
+}
+
+.bulk-big{
+    font-size:30px;
+}
+
+.bulk-text{
+    background-color:white;
+    color:rgb(118, 117, 117);
+    margin: 70px 20px;
+    padding:10px;
+    border-radius:10px;
+
+}
+
+
+.card-type-2{
+    width:100px
+}
+
+.card-noBg{
+    background-color: rgba(245, 245, 245, 1);
+    opacity: 0;
+}
+
+.personal-branding-topImg img{
+   height:400px;
+
+   padding-top: 50px;
+}
+
+.padding-title{
+    padding-top:50px;
+
+}
+
+.percent-people{
+    font-size:40px;
+}
+
+.branding-text{
+    border-radius:20px;
+    box-shadow:10px 10px 10px gray;
+    padding:20px;
+    margin-top: 50px;
+    width:400px;
+    color:gray;
+}
+
+.p-branding-1 img{
+    height:200px;
+    margin-top:100px;
+}
+.p-branding-2 img{
+    margin-top:100px;
+    height:200px;
+}
+.p-branding-3 img{
+    height:200px;
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap" rel="stylesheet">
+   
+    <title>Masterkey Technologies Ltd.</title>
+</head>
+<body>
+
+    <div class="front-page-home" id="home">
+        <div class="row">
+            <div class="col-8 front-page-left">
+                <img src="./picture/logopng.png" alt="">
+
+                <div class="front-page-text">
+                    <h1>We talk solutions that </h1>
+                    <p id="text" class="toggle-text"></p>
+                        <script>
+                            var $text = $("#text");
+                            var numbers = ["MATTERS", "CONVERTS", "DISRUPTS!"];
+
+                            for (var i = 1; i <= 3; ++i) {
+                            (function(index) {
+                                setTimeout(function() { 
+                                $text.html(numbers[index-1]);
+                                }, i * 1000);
+                            })(i);
+                         }
+                        </script>
+                </div>
+                <a href="about">
+                    <div class="learn-more-front">
+                      Learn more about us <img src="./picture/right-arrow.svg" alt="">
+                    </div>
+                </a>
+
+                <div class="lower-front">
+                    <a href="#what-we-do">
+                        <img class="lower-front-icon" src="./picture/right.png" alt=""> <br>
+                    </a>
+                    <p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:10%; background-color:#ED6949 !important;">
+                            </div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <div class="col-4 front-page-right">
+                    <a href="#home" class="current-nav">Home</a> <br>
+                    <a href="#what-we-do">What we do</a> <br>
+                    <a href="#">Our partners</a> <br>
+                    <a href="#contact-us">Contact US</a> <br>
+                    <a href="./about-us.html">About Us</a> <br>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="front-page-what-we-do" id="what-we-do">
+        <div class="row">
+            <div class="col-8 front-page-left">
+                <div class="card-deck">
+                    <div class="card card-what-do">
+                      <div class="card-body text-center">
+                          <img src="./picture/pic.png" alt="">
+                        <p class="card-text">Some text inside the first card</p>
+                      </div>
+                    </div>
+                    <div class="card card card-what-do">
+                      <div class="card-body text-center">
+                        <img src="./picture/pic.png" alt="">
+                        <p class="card-text">Some text inside the second card</p>
+                      </div>
+                    </div>
+                    <div class="card card card-what-do">
+                      <div class="card-body text-center">
+                        <img src="./picture/pic.png" alt="">
+                        <p class="card-text">Some text inside the third card</p>
+                      </div>
+                    </div>
+                    <div class="card card card-what-do">
+                      <div class="card-body text-center">
+                        <img src="./picture/pic.png" alt="">
+                        <p class="card-text">Some text inside the fourth card</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card-deck">
+                    <div class="card card card-what-do">
+                      <div class="card-body text-center">
+                        <img src="./picture/pic.png" alt="">
+                        <p class="card-text">Some text inside the first card</p>
+                      </div>
+                    </div>
+                    <div class="card card card-what-do">
+                      <div class="card-body text-center">
+                        <img src="./picture/pic.png" alt="">
+                        <p class="card-text">Some text inside the second card</p>
+                      </div>
+                    </div>
+                    <div class="card card card-what-do">
+                      <div class="card-body text-center">
+                        <img src="./picture/pic.png" alt="">
+                        <p class="card-text">Some text inside the third card</p>
+                      </div>
+                    </div>
+                    <div class="card card card-what-do">
+                      <div class="card-body text-center">
+                        <img src="./picture/pic.png" alt="">
+                        <p class="card-text">Some text inside the fourth card</p>
+                      </div>
+                    </div>
+                  </div>
+                <a href="./about-us.html">
+                    <div class="learn-more-front">
+                        
+                        <div class="checkout">
+                            <h6>Check out more <img src="./picture/right-arrow 2.svg" alt=""></h6>
+                        </div>
+                    </div>
+                </a>
+
+                <div class="lower-front">
+                    <a href="#contact-us">
+                        <img class="lower-front-icon" src="./picture/right.png" alt=""> <br>
+                    </a>
+                    <p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:40%; background-color:#ED6949 !important;">
+                            </div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <div class="col-4 front-page-right front-page-right2 ">
+                    <a href="#home">Home</a> <br>
+                    <a href="#what-we-do" class="current-nav">What we do</a> <br>
+                    <a href="#">Our partners</a> <br>
+                    <a href="#contact-us">Contact US</a> <br>
+                    <a href="./about-us.html">About Us</a> <br>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="front-page-contact-us" id="contact-us">
+        <div class="row">
+            <div class="col-8 front-page-left">
+                <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <form>
+                            
+                            <input type="text" id="fname" name="fname" placeholder="Full Name"><br>
+                            <input type="text" id="company" name="company" placeholder="Company/ Organization"><br>
+                            <input type="text" id="phone" name="phone" placeholder="Phone"><br>
+                            <input type="email" id="email" name="email" placeholder="Email"><br>
+                      </div>
+                      <div class="col">
+                    
+                            <textarea id="textfield" name="textfield" placeholder="Please describe your requirements"></textarea>
+                            <br>
+                            <button type="submit" id="submit">Submit</button>
+                            </form>
+                      </div>
+                    </div>
+                  </div>
+                
+                <div class="lower-front">
+                    <h2 class="mk-email">contact@masterkey.tech</h2>
+                    <h6 class="click-text">Click to copy the email</h6>
+                    <script>
+
+                    const span = document.querySelector(".mk-email");
+
+                    span.onclick = function() {
+                    document.execCommand("copy");
+                    }
+
+                    span.addEventListener("copy", function(event) {
+                    event.preventDefault();
+                    if (event.clipboardData) {
+                        event.clipboardData.setData("text/plain", span.textContent);
+                        console.log(event.clipboardData.getData("text"))
+                        alert("Email Copied");
+                    }
+                    });
+                    </script>
+                    <a href="./about-us.html">
+                        <img class="lower-front-icon" src="./picture/right.png" alt=""> <br>
+                    </a>
+                    <p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:60%; background-color:#ED6949 !important;">
+                            </div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <div class="col-4 front-page-right front-page-right2 ">
+                    <a href="#home">Home</a> <br>
+                    <a href="#what-we-do">What we do</a> <br>
+                    <a href="#">Our partners</a> <br>
+                    <a href="#contact-us " class="current-nav">Contact US</a> <br>
+                    <a href="./about-us.html">About Us</a> <br>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

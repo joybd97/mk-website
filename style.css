@@ -505,3 +505,9 @@ nav{
     height:150px;
     width:120px;
   }
+
+  .card-what-do{
+    box-shadow: 10px 10px 10px gray;
+    border-radius:20px;
+    height: 100px;
+  }

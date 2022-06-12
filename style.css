@@ -9,7 +9,7 @@ body{
 }
 
 .front-page-left{
-    padding: 70px 70px;
+    padding: 70px 70px !important;
 }
 .front-page-right{
     background-color: #65509C;
@@ -81,7 +81,7 @@ body{
 .checkout{
     background-color:#ED6949;
     border-radius: 10px;
-    padding: 5px;
+    padding: 15px 5px 5px 10px;
     margin:30px 20px;
     color:#fff;
     width: 200px; 
@@ -111,7 +111,21 @@ textarea{
     height:150px;
     color: #65509C;
 }
+.about-us-heading{
+    text-align: left;
+    font-size: 36px;
+    padding-top:20px;
+}
 
+.about-us-top-head{
+    padding-right: 30px;
+}
+
+.about-us-text{
+    text-align:left;
+    font-size:17px;
+    padding-top:20px;
+}
 #submit{
     border-radius:20px;
     background-color:#ED6949;
@@ -286,14 +300,18 @@ nav{
 
 .web-app-top{
     background-image:
-    linear-gradient(to bottom, rgba(27, 144, 155, 7%) 10%, #34065C 93%),
+    linear-gradient(to bottom, rgba(27, 38, 155, 0.7) 20%, #7806CA 60%),
     url('./picture/mobile-app-2.jpg');
     
     height:730px;
     background-repeat: no-repeat;
     background-size: 100% 1100px;
-    text-shadow: 2px 2px gray;
+    text-shadow: 2px 2px black;
     
+}
+
+.mobile-app-body{
+    padding: 20px 0px;
 }
 
 .web-app-left{
@@ -309,7 +327,7 @@ nav{
 .bms-left-text{
     color: #fff;
     font-family: 'Noto Sans', sans-serif;
-    text-shadow: 2px 2px gray;
+    text-shadow: 2px 2px black;
 }
 
 .bms-card{
@@ -509,6 +527,7 @@ nav{
 
   .what-we-do{
     margin-top:-30px !important;
+    height: 231px !important;
   }
   
   .dropdown {
@@ -520,23 +539,25 @@ nav{
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    min-width: 400px;
+    
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   
   .dropdown-content a {
-    
-    padding: 12px 16px;
+    border: 1px solid lightgrey;
+    padding: 17px 16px !important;
     text-decoration: none;
     display: block;
+    text-align: left;
   }
   
   .dropdown-content a:hover {background-color: #ddd;}
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: #9149CD;}
+  .dropdown:hover .dropbtn {background-color: rgb(161, 159, 159);}
 
   .card-body2{
     height:100px;
@@ -599,10 +620,9 @@ nav{
   .business-management-nav{
     background-color: white;
     border-radius: 10px;
-    width:170px;
-    justify-content: center;
+    width:350px;
     text-align: center;
-    margin:50px 670px 0px;
+    margin:50px 580px;
     
   }
   .business-management-nav a{
@@ -615,9 +635,9 @@ nav{
   .mobile-app-web-nav{
     background-color: white;
     border-radius: 10px;
-    width:170px;
+    width:350px;
     text-align: center;
-    margin: 19px 235px;
+    margin: -10px 80px;
   }
   .mobile-app-web-nav a{
     text-decoration: none;
@@ -627,9 +647,9 @@ nav{
   .personal-branding-nav{
     background-color: white;
     border-radius: 10px;
-    width:170px;
+    width:350px;
     text-align: center;
-    margin: -46px 1090px;
+    margin: -45px 1080px;
   }
   .personal-branding-nav a{
     text-decoration: none;
@@ -639,9 +659,9 @@ nav{
   .ecommerce-solution-nav{
     background-color: white;
     border-radius: 10px;
-    width:170px;
+    width:350px;
     text-align: center;
-    margin: 231px 229px;
+    margin: 225px 85px;
   }
   .ecommerce-solution-nav a{
     text-decoration: none;
@@ -650,9 +670,9 @@ nav{
   .digital-marketing-nav{
     background-color: white;
     border-radius: 10px;
-    width:170px;
+    width:350px;
     text-align: center;
-    margin: -256px 1095px;
+    margin: -270px 1080px;
   }
   .digital-marketing-nav a{
     text-decoration: none;
@@ -662,9 +682,9 @@ nav{
   .bulk-sms-services{
     background-color: white;
     border-radius: 10px;
-    width:170px;
+    width:350px;
     text-align: center;
-    margin: 353px 229px;
+    margin: 380px 85px;
   }
   .bulk-sms-services a{
     text-decoration: none;
@@ -674,9 +694,9 @@ nav{
   .affiliate-marketing-nav{
     background-color: white;
     border-radius: 10px;
-    width:170px;
+    width:350px;
     text-align: center;
-    margin: -384px 1095px;
+    margin: -420px 1080px;
   }
   .affiliate-marketing-nav a{
     text-decoration: none;
@@ -686,10 +706,10 @@ nav{
   .add-network-nav{
     background-color: white;
     border-radius: 10px;
-    width:170px;
+    width:350px;
     justify-content: center;
     text-align: center;
-    margin:428px 670px;
+    margin:487px 580px;
   }
   .add-network-nav a{
     text-decoration: none;
@@ -698,4 +718,9 @@ nav{
 
   .dummy{
     opacity: 0;
+  }
+
+  .spider-icon{
+    height:40px;
+    padding: 5px 10px;
   }

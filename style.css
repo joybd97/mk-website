@@ -239,10 +239,8 @@ nav{
     background-image:
     linear-gradient(to bottom, rgba(27, 144, 155, 7%) 10%, #34065C 93%),
     url('./picture/balk-sms.jpg');
-
-    height:100%;
     background-repeat: no-repeat;
-    background-size: 1600px 600px;
+    background-size: 1800px 900px;
 }
 .ads-top{
     background-image:
@@ -251,7 +249,39 @@ nav{
     
     height:100%;
     background-repeat: no-repeat;
-    background-size: 490px 1100px;
+    background-size: 450px 900px;
+}
+.ads-count{
+    font-size:28px;
+}
+.ads-card-bottom{
+    margin-inline-end: 70px !important;
+    margin-inline-start: 70px !important;
+}
+
+
+
+.ads-laft-icon{
+    position: -150px;;
+}
+.adds-top-icon{
+    height:50px;
+}
+
+.ads-bottom-icon{
+    height:90px;
+    position: absolute;
+    margin: 25px -120px 0px -200px;
+}
+.ads-bottom-icon2{
+    height:90px;
+    position: absolute;
+    margin: 60px -120px 0px -210px;
+}
+.ads-bottom-icon3{
+    height:90px;
+    position: absolute;
+    margin: 47px -120px 0px -210px;
 }
 
 .web-app-top{
@@ -318,15 +348,17 @@ nav{
 .ads-left{
    
    margin-top: 300px; 
-   padding-right: 60px;
+   padding-right: 150px;
 }
 
 .ads-text-right{
     font-weight: 1200;
-    padding: 200px 60px !important;
+    padding: 200px 0px 0px 90px !important;
     font-size:36px;
 }
-
+.mk-digital-logo{
+    padding-right: 70px;
+}
 .ads-card{
     display: block;
   margin-left: auto;
@@ -367,9 +399,28 @@ nav{
 
 
 .card-type-2{
-    width:100px
+    width:100px;
+    
+}
+.bulk-card1{
+    height:150px;
+    max-width:190px;
+    text-align: center;
+    margin: 70px;
+    
+    
 }
 
+
+.bulk-card2{
+    text-align: center;
+
+}
+
+
+.bulk-text-left{
+    margin-top:600px;
+}
 .card-noBg{
     background-color: rgba(245, 245, 245, 1);
     opacity: 0;
@@ -426,6 +477,12 @@ nav{
 
 .icon-size{
     height:70px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon-size2{
+    height:150px;
     display: block;
   margin-left: auto;
   margin-right: auto;
@@ -510,4 +567,135 @@ nav{
     box-shadow: 10px 10px 10px gray;
     border-radius:20px;
     height: 140px;
+  }
+.spider-navbar{
+    background-image:
+    linear-gradient(to bottom, rgba(27, 144, 155, 7%) 10%, #34065C 93%),
+    url('./picture/spider-bg.jpg');  
+    height:40%;
+    background-repeat: no-repeat;
+    height:1500px;
+    
+}
+.spider-nav{
+    background-image: url("./picture/spider-fig.svg");
+    background-repeat: no-repeat;
+    background-position : 450px 190px !important;
+    background-size: 600px;
+    height:40%;
+    
+    
+}
+  .spider-fig{
+   height: 600px;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 100px 50px;
+   
+  }
+
+  .business-management-nav{
+    background-color: white;
+    border-radius: 10px;
+    width:170px;
+    justify-content: center;
+    text-align: center;
+    margin:50px 670px 0px;
+    
+  }
+  .business-management-nav a{
+    text-decoration: none;
+    color: black;
+    
+    
+  }
+
+  .mobile-app-web-nav{
+    background-color: white;
+    border-radius: 10px;
+    width:170px;
+    text-align: center;
+    margin: 19px 235px;
+  }
+  .mobile-app-web-nav a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .personal-branding-nav{
+    background-color: white;
+    border-radius: 10px;
+    width:170px;
+    text-align: center;
+    margin: -46px 1090px;
+  }
+  .personal-branding-nav a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .ecommerce-solution-nav{
+    background-color: white;
+    border-radius: 10px;
+    width:170px;
+    text-align: center;
+    margin: 231px 229px;
+  }
+  .ecommerce-solution-nav a{
+    text-decoration: none;
+    color: black;
+  }
+  .digital-marketing-nav{
+    background-color: white;
+    border-radius: 10px;
+    width:170px;
+    text-align: center;
+    margin: -256px 1095px;
+  }
+  .digital-marketing-nav a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .bulk-sms-services{
+    background-color: white;
+    border-radius: 10px;
+    width:170px;
+    text-align: center;
+    margin: 353px 229px;
+  }
+  .bulk-sms-services a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .affiliate-marketing-nav{
+    background-color: white;
+    border-radius: 10px;
+    width:170px;
+    text-align: center;
+    margin: -384px 1095px;
+  }
+  .affiliate-marketing-nav a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .add-network-nav{
+    background-color: white;
+    border-radius: 10px;
+    width:170px;
+    justify-content: center;
+    text-align: center;
+    margin:428px 670px;
+  }
+  .add-network-nav a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .dummy{
+    opacity: 0;
   }

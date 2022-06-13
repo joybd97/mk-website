@@ -87,7 +87,7 @@ body{
     background-color:#ED6949;
     border-radius: 10px;
     padding: 15px 5px 5px 10px;
-    margin:30px 20px;
+    margin:30px 0px;
     color:#fff;
     width: 200px; 
 }
@@ -175,6 +175,31 @@ textarea{
 }
 .p-branding-3-2{
     margin-top: -30px;
+}
+
+.line-4{
+    background-color:#fff;
+    display: flex;
+    margin: 489px 697px;
+    position:absolute;
+    height: 3px;
+    width: 25px;
+}
+.line-5{
+    background-color:#fff;
+    display: flex;
+    margin: 489px 1083px;
+    position:absolute;
+    height: 3px;
+    width: 25px;
+}
+.line-6{
+    background-color: #fff;
+    display: flex;
+    margin: 582px 898px;
+    position: absolute;
+    height: 84px;
+    width: 5px;
 }
 
 .click-text{
@@ -633,13 +658,14 @@ nav{
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: rgb(161, 159, 159);}
+  .dropdown:hover .dropbtn {background-color: rgba(191, 189, 189, 0.671);}
 
   .card-body2{
     height:100px;
     display: inline-block;
     padding-top:40px;
     font-size:14px;
+    font-family: 'Noto Sans', sans-serif;
     
   }
   .card-body3{
@@ -651,14 +677,12 @@ nav{
     
   }
 
-  .card-body{
-    font-family: 'Noto Sans', sans-serif;
-  }
+  
 
   .card-what-do{
     box-shadow: 10px 10px 10px gray;
-    border-radius:20px;
-    height: 240px;
+    border-radius:20px !important;
+    height: 200px;
   }
   .mb-web-card{
     height:130px;
@@ -809,7 +833,7 @@ nav{
 
   .mk-logo{
     height:50px;
-    padding-left: 50px;
+    padding-left: 55px;
   }
 
   .p-branding-bottom{
@@ -824,4 +848,9 @@ nav{
     height:90px;
    
     padding: 10px 355px 0px 0px;
+  }
+
+  hr{
+    border-top: 5px solid white !important;
+    border-radius: 10px;
   }

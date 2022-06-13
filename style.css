@@ -46,8 +46,10 @@ body{
 }
 .learn-more-front{
     font-size: 16px;
-    padding-left: 50px;
     color: #65509C;
+}
+.learn-more{
+    padding-left: 50px;
 }
 .current-nav{
     font-size: 20px !important;
@@ -144,6 +146,37 @@ textarea{
     padding: 20px;
 }
 
+.line-1{
+    background-color:#9c5085;
+    display: flex;
+    margin: 523px 380px;
+    position:absolute;
+    height: 3px;
+    width: 190px;
+}
+.line-2{
+    background-color:#9c5085;
+    display: flex;
+    margin: 476px 742px;
+    position:absolute;
+    height: 3px;
+    width: 220px;
+}
+.line-3{
+    background-color:#9c5085;
+    display: flex;
+    margin: 565px 742px;
+    position:absolute;
+    height: 3px;
+    width: 220px;
+}
+.p-branding-3-1{
+    margin-top: 20px;
+}
+.p-branding-3-2{
+    margin-top: -30px;
+}
+
 .click-text{
     color:#ED6949;
     padding: 0px 20px;
@@ -151,7 +184,7 @@ textarea{
 
 nav{
     background-color:#fff;
-    box-shadow: 10px 10px 10px lightgrey;
+    box-shadow: 2px 5px 5px darkgrey;
     text-align: right;
 
 }
@@ -168,7 +201,7 @@ nav{
     text-align: right;
     display: inline-block;
     vertical-align: middle;
-    padding: 200px 50px;
+    padding: 200px 50px 0px 50px;
 }
 
 
@@ -222,7 +255,7 @@ nav{
 
     height:100%;
     background-repeat: no-repeat;
-    background-size: 580px 1150px;
+    background-size: 580px 1200px;
     
 }
 .e-com-solution{
@@ -250,7 +283,7 @@ nav{
     
     height:100%;
     background-repeat: no-repeat;
-    background-size: 480px 1100px;
+    background-size: 480px 1300px;
 }
 .balk-sms-solution{
     background-image:
@@ -272,7 +305,7 @@ nav{
     font-size:28px;
 }
 .ads-card-bottom{
-    margin-inline-end: 70px !important;
+    margin-inline-end: 22px !important;
     margin-inline-start: 70px !important;
 }
 
@@ -314,7 +347,7 @@ nav{
 }
 
 .mobile-app-body{
-    padding: 20px 0px;
+    padding: 20px 0px 0px 0px;
 }
 
 .web-app-left{
@@ -384,7 +417,7 @@ nav{
 
 .ads-text-right{
     font-weight: 1200;
-    padding: 200px 0px 0px 90px !important;
+    padding: 150px 0px 20px 90px !important;
     font-size:36px;
 }
 .mk-digital-logo{
@@ -396,6 +429,15 @@ nav{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.add-padding{
+    padding-bottom: 30px;
+    padding-left: 80px;
+}
+
+.padding-left2{
+    padding-left:80px;
 }
 
 .ads-card-2{
@@ -619,7 +661,7 @@ nav{
   }
 
   .card-what-do2{
-    box-shadow: 10px 10px 10px gray;
+    box-shadow: 5px 5px 5px black;
     border-radius:20px;
     height: 140px;
   }
@@ -771,4 +813,10 @@ nav{
 
   .p-branding-top{
     padding-top:70px;
+  }
+ 
+  .img-coma img{
+    height:90px;
+   
+    padding: 10px 355px 0px 0px;
   }

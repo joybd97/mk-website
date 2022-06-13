@@ -344,7 +344,17 @@ nav{
 }
 
 .bms-card-2{
-    width:90%
+    width:90%;
+    display: inline-flex !important;
+    flex-direction: row;
+}
+    
+.counter-card{
+    padding: 30px 50px;
+    font-size:26px;
+    color:gray;
+    font-weight:1200 !important;
+
 }
 .bms-card-1{
     height:80%;
@@ -482,8 +492,14 @@ nav{
 
 .branding-block{
     width: 240px;
-  flex: 0 0 50px;
-  margin: 5px;
+    flex: 0 0 50px;
+    margin: 5px;
+}
+
+.card-block{
+    width: 240px;
+    flex: 0 0 50px;
+    margin: 5px;
 }
 
 .p-branding-1 img{
@@ -650,6 +666,7 @@ nav{
     
   }
 
+
   .mobile-app-web-nav{
     background-color: white;
     border-radius: 10px;
@@ -746,4 +763,12 @@ nav{
   .mk-logo{
     height:50px;
     padding-left: 50px;
+  }
+
+  .p-branding-bottom{
+    padding-top:320px !important;
+  }
+
+  .p-branding-top{
+    padding-top:70px;
   }

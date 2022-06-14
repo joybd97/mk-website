@@ -267,7 +267,8 @@ nav{
     url('./picture/women-talking.jpg');
     height:102%;
     background-repeat: no-repeat;
-    background-size: 580px 102%;
+    background-size: 580px;
+    background-attachment: fixed;
     
    
 
@@ -280,7 +281,8 @@ nav{
 
     height:100%;
     background-repeat: no-repeat;
-    background-size: 580px 1400px;
+    background-size: 580px;
+    background-attachment: fixed;
     
 }
 .e-com-solution{
@@ -289,7 +291,8 @@ nav{
     url('./picture/e-com.jpg');
     height:100%;
     background-repeat: no-repeat;
-    background-size: 580px 1100px;
+    background-size: 580px;
+    background-attachment: fixed;
     
 }
 .affiliate-management{
@@ -298,7 +301,8 @@ nav{
     url('./picture/affiliate.jpg');
     height:100%;
     background-repeat: no-repeat;
-    background-size: 580px 1100px;
+    background-size: 580px;
+    background-attachment: fixed;
 }
 
 .web-app-solution{
@@ -308,14 +312,16 @@ nav{
     
     height:100%;
     background-repeat: no-repeat;
-    background-size: 480px 1300px;
+    background-size: 480px;
+    background-attachment: fixed;
 }
 .balk-sms-solution{
     background-image:
     linear-gradient(to bottom, rgba(27, 144, 155, 7%) 10%, #34065C 93%),
     url('./picture/balk-sms.jpg');
     background-repeat: no-repeat;
-    background-size: 1800px 900px;
+    background-size: 1800px;
+    background-attachment: fixed;
 }
 .ads-top{
     background-image:
@@ -324,7 +330,8 @@ nav{
     
     height:100%;
     background-repeat: no-repeat;
-    background-size: 500px 1400px;
+    background-size: 500px;
+    background-attachment: fixed;
 }
 .ads-count{
     font-size:28px;
@@ -579,6 +586,26 @@ nav{
 }
 .p-branding-3 img{
     height:200px;
+}
+
+.digital-marketing-body{
+    padding-top:80px;
+}
+.business-management-body{
+    padding-top:80px;
+}
+.affiliate-text{
+    padding-top:80px;
+}
+
+.e-com-solution-body{
+    padding-top:80px;
+}
+.ads-top{
+    padding-top:80px;
+}
+.web-app-top{
+    padding-top:80px;
 }
 
 .navbar a{

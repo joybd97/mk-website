@@ -149,6 +149,7 @@ textarea{
 .mk-email{
     color:#65509C;
     padding: 20px;
+    width: 400px;
 }
 
 .line-1{
@@ -217,6 +218,13 @@ nav{
     box-shadow: 2px 5px 5px darkgrey;
     text-align: right;
 
+}
+
+.nav-item{
+    width: 250px;
+}
+.dropdown{
+    width: 250px;
 }
 
 .about-us-top{
@@ -318,7 +326,7 @@ nav{
     
     height:100%;
     background-repeat: no-repeat;
-    background-size: 480px;
+    background-size: 490px;
     background-attachment: fixed;
 }
 .balk-sms-solution{
@@ -434,9 +442,6 @@ nav{
     height:50px;
 }
 
-.bms-card-1 img{
-    padding-left:10px;
-}
 .color1{
     color:#65509C;
 }
@@ -889,4 +894,74 @@ nav{
   hr{
     border-top: 5px solid white !important;
     border-radius: 10px;
+  }
+
+  .affiliate-card-1{
+    height:120px;
+    width:120px;
+    margin: 10px;
+  }
+
+  .affiliate-card-1 img{
+    height: 70px !important;
+    width: 70px !important;
+    margin: auto;
+  }
+
+  .affiliate-card-2{
+    height:120px;
+    margin: auto;
+  }
+
+  .bms-card-size{
+    height:125px;
+    margin: auto;
+  }
+
+  .add-margin-1{
+    margin-top:5px;
+  }
+
+  .ecom-card1{
+     height:140px;
+     width:140px;
+  }
+  
+  .card p{
+    margin: auto;
+  }
+
+ .position-fixed{
+  position: fixed;
+ }
+
+  .special-1{
+    height:135px;
+  }
+
+  .special-2{
+    height:135px;
+  }
+
+  .special-3{
+    height: 125px;
+  }
+
+  .special-4{
+    margin-top:6px;
+  }
+
+  .special-5{
+    height: 140px;
+  }
+  .special-6{
+    height: 145px;
+  }
+  
+  .special-7{
+    height: 127px;
+  }
+
+  .special-8{
+    height:130px;
   }

@@ -53,6 +53,7 @@ body{
     font-size: 16px;
     color: #65509C;
 }
+
 .learn-more{
     padding-left: 50px;
 }
@@ -95,6 +96,10 @@ body{
     margin:30px 0px;
     color:#fff;
     width: 200px; 
+}
+
+.checkout-area{
+  width:210px;
 }
 
 .front-page-right{

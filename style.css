@@ -218,7 +218,8 @@ nav{
     background: url(./picture/about-us-bg.png); 
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 730px !important;
+    height: 770px !important;
+    background-attachment: fixed;
 }
 
 .white-text{
@@ -423,6 +424,9 @@ nav{
 }
 .bms-card-1{
     height:80%;
+}
+.bms-card-1 img{
+    height:50px;
 }
 
 .bms-card-1 img{

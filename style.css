@@ -935,10 +935,9 @@ nav{
   .card p{
     margin: auto;
   }
-
- .position-fixed{
-  position: fixed;
- }
+.learnmore-area{
+  width: 250px;
+}
 
   .special-1{
     height:135px;
@@ -969,4 +968,56 @@ nav{
 
   .special-8{
     height:130px;
+  }
+  .special-9{
+    padding-top:40px !important;
+  }
+
+  .special-10{
+    padding-top:43px !important;
+  }
+
+  .special-11{
+    height:130px;
+    padding-top:5px !important;
+  }
+  .special-12{
+    padding-bottom: 20px;
+  }
+  .special-13{
+    padding-bottom: 25px;
+  }
+  .special-14{
+    margin-top: 4px;
+  }
+
+  .special-15{
+    height: 160px;
+  }
+
+  .special-16{
+    height: 133px;
+  }
+
+  .checkout:hover{
+    background-color:red;
+    color: white;
+    font-size:18px;
+  }
+
+  .checkout-area a:hover{
+    text-decoration:none !important;
+  }
+
+  .card-what-do2:hover{
+    color:white !important;
+    background-color:#ED6949;
+  }
+  .card-what-do2:hover p{
+    color:white !important;
+  
+  }
+  .card-what-do2:hover a{
+    text-decoration: none;
+  
   }

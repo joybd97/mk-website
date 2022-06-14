@@ -8,6 +8,11 @@ body{
     height: 710px !important;
 }
 
+::placeholder { 
+    color: #65509C;
+    opacity: 1;
+  }
+
 .front-page-left{
     padding: 70px 70px !important;
 }
